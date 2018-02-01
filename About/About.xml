@@ -1,0 +1,29 @@
+<ModMetaData>
+	<name>Bulk Steel Extraction</name>
+	<author>Fuglypump</author>
+	<targetVersion>0.18.1722</targetVersion>
+	<description>Adds new bills to the Electric Smelter. *No research required*
+
+New Recipes:
+- Extract metal from Slag (x3) - Smelt 3 slag chunks at a time for 30 steel
+- Extract metal from debris - Smelt 1 stone chunk for 10 steel
+- Extract metal from debris (x3) - Smelt 3 stone chunks at a time for 30 steel
+
+Notes:
+- Recipes which smelt 3 chunks at a time cost 15% less work than smelting single chunks at a time.
+- Smelting stone chunks costs the same amount of work as smelting chunks of slag.
+- Should be safe to add or remove to your saved games, just make sure you delete the bills and/or electric smelter before uninstalling to avoid any possible errors.
+
+Supported mods:
+Cupro's Stones - Adds the new stone types to the ingredients of the debris recipes if they exist.
+More Stone - Adds the new stone types to the ingredients of the debris recipes if they exist.
+MoreSteelFromSlag - x25 - Updates slag recipe yields if loaded.
+MoreSteelFromSlag - x50 - Updates slag recipe yields if loaded.
+MoreSteelFromSlag - x150 - Updates slag recipe yields if loaded.
+MoreSteelFromSlag - x300 - Updates slag recipe yields if loaded.
+
+Incompatible Mods:
+- Steel Extraction - Both mods add recipes for smelting stone debris and both use the same defnames, these will either be overwritten or appear twice.
+
+Credits:
+- nightinggale for ModCheck functionality</description></ModMetaData>

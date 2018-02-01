@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<!-- MoreSteelFromSlag - x25 -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>MoreSteelFromSlag - x25</modName>
+				<yourMod>Bulk Steel Extraction</yourMod>
+				<customMessageSuccess>Bulk Steel Extraction: Mod named "MoreSteelFromSlag - x25" detected, updating values for slag recipes.</customMessageSuccess>
+			</li>		
+			<li Class="PatchOperationReplace">
+				<xpath>*/RecipeDef[defName = "ExtractMetalFromSlag"]/products</xpath>
+				<value>
+					<products>
+						<Steel>25</Steel>
+					</products>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/RecipeDef[defName = "BulkExtractMetalFromSlag"]/products</xpath>
+				<value>
+					<products>
+						<Steel>75</Steel>
+					</products>
+				</value>
+			</li>
+		</operations>
+	</Operation>	
+	
+	<!-- MoreSteelFromSlag - x50 -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>MoreSteelFromSlag - x50</modName>
+				<yourMod>Bulk Steel Extraction</yourMod>
+				<customMessageSuccess>Bulk Steel Extraction: Mod named "MoreSteelFromSlag - x50" detected, updating values for slag recipes.</customMessageSuccess>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/RecipeDef[defName = "ExtractMetalFromSlag"]/products</xpath>
+				<value>
+					<products>
+						<Steel>50</Steel>
+					</products>
+				</value>
+			</li>			
+			<li Class="PatchOperationReplace">
+				<xpath>*/RecipeDef[defName = "BulkExtractMetalFromSlag"]/products</xpath>
+				<value>
+					<products>
+						<Steel>150</Steel>
+					</products>
+				</value>
+			</li>
+		</operations>
+	</Operation>	
+	
+	<!-- MoreSteelFromSlag - x150 -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>MoreSteelFromSlag - x150</modName>
+				<yourMod>Bulk Steel Extraction</yourMod>
+				<customMessageSuccess>Bulk Steel Extraction: Mod named "MoreSteelFromSlag - x150" detected, updating values for slag recipes.</customMessageSuccess>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/RecipeDef[defName = "ExtractMetalFromSlag"]/products</xpath>
+				<value>
+					<products>
+						<Steel>150</Steel>
+					</products>
+				</value>
+			</li>			
+			<li Class="PatchOperationReplace">
+				<xpath>*/RecipeDef[defName = "BulkExtractMetalFromSlag"]/products</xpath>
+				<value>
+					<products>
+						<Steel>450</Steel>
+					</products>
+				</value>
+			</li>
+		</operations>
+	</Operation>	
+	
+	<!-- MoreSteelFromSlag - x300 -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>MoreSteelFromSlag - x300</modName>
+				<yourMod>Bulk Steel Extraction</yourMod>
+				<customMessageSuccess>Bulk Steel Extraction: Mod named "MoreSteelFromSlag - x300" detected, updating values for slag recipes.</customMessageSuccess>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>*/RecipeDef[defName = "ExtractMetalFromSlag"]/products</xpath>
+				<value>
+					<products>
+						<Steel>300</Steel>
+					</products>
+				</value>
+			</li>		
+			<li Class="PatchOperationReplace">
+				<xpath>*/RecipeDef[defName = "BulkExtractMetalFromSlag"]/products</xpath>
+				<value>
+					<products>
+						<Steel>900</Steel>
+					</products>
+				</value>
+			</li>
+		</operations>
+	</Operation>	
+	
+	<!-- Cupro's Stones -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>Cupro's Stones</modName>
+				<yourMod>Bulk Steel Extraction</yourMod>
+				<customMessageSuccess>Bulk Steel Extraction: Mod named "Cupro's Stones" detected, updating ingredients for debris recipes.</customMessageSuccess>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/RecipeDef[defName = "ExtractMetalFromDebris"]/ingredients/li/filter/thingDefs</xpath>
+				<value>
+					<li>ChunkClaystone</li>
+					<li>ChunkAndesite</li>
+					<li>ChunkSyenite</li>
+					<li>ChunkGneiss</li>
+					<li>ChunkQuartzite</li>
+					<li>ChunkSchist</li>
+					<li>ChunkGabbro</li>
+					<li>ChunkDiorite</li>
+					<li>ChunkDunite</li>
+					<li>ChunkPegmatite</li>
+				</value>
+			</li>	
+			<li Class="PatchOperationAdd">
+				<xpath>*/RecipeDef[defName = "ExtractMetalFromDebris"]/fixedIngredientFilter/thingDefs</xpath>
+				<value>
+					<li>ChunkClaystone</li>
+					<li>ChunkAndesite</li>
+					<li>ChunkSyenite</li>
+					<li>ChunkGneiss</li>
+					<li>ChunkQuartzite</li>
+					<li>ChunkSchist</li>
+					<li>ChunkGabbro</li>
+					<li>ChunkDiorite</li>
+					<li>ChunkDunite</li>
+					<li>ChunkPegmatite</li>
+				</value>
+			</li>	
+			<li Class="PatchOperationAdd">
+				<xpath>*/RecipeDef[defName = "BulkExtractMetalFromDebris"]/ingredients/li/filter/thingDefs</xpath>
+				<value>
+					<li>ChunkClaystone</li>
+					<li>ChunkAndesite</li>
+					<li>ChunkSyenite</li>
+					<li>ChunkGneiss</li>
+					<li>ChunkQuartzite</li>
+					<li>ChunkSchist</li>
+					<li>ChunkGabbro</li>
+					<li>ChunkDiorite</li>
+					<li>ChunkDunite</li>
+					<li>ChunkPegmatite</li>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/RecipeDef[defName = "BulkExtractMetalFromDebris"]/fixedIngredientFilter/thingDefs</xpath>
+				<value>
+					<li>ChunkClaystone</li>
+					<li>ChunkAndesite</li>
+					<li>ChunkSyenite</li>
+					<li>ChunkGneiss</li>
+					<li>ChunkQuartzite</li>
+					<li>ChunkSchist</li>
+					<li>ChunkGabbro</li>
+					<li>ChunkDiorite</li>
+					<li>ChunkDunite</li>
+					<li>ChunkPegmatite</li>
+				</value>
+			</li>				
+		</operations>
+	</Operation>	
+	
+	<!-- More Stone -->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="ModCheck.isModLoaded">
+				<modName>More Stone</modName>
+				<yourMod>Bulk Steel Extraction</yourMod>
+				<customMessageSuccess>Bulk Steel Extraction: Mod named "More Stone" detected, updating ingredients for debris recipes.</customMessageSuccess>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/RecipeDef[defName = "ExtractMetalFromDebris"]/ingredients/li/filter/thingDefs</xpath>
+				<value>
+					<li>ChunkChalk</li>
+					<li>ChunkDolomite</li>
+					<li>ChunkShale</li>
+					<li>ChunkKaolinite</li>
+					<li>ChunkBasalt</li>
+					<li>ChunkGabbro</li>
+					<li>ChunkDacite</li>
+					<li>ChunkRhyolite</li>
+					<li>ChunkMicrocline</li>
+					<li>ChunkQuartzite</li>
+					<li>ChunkGneiss</li>
+					<li>ChunkSchist</li>
+				</value>
+			</li>	
+			<li Class="PatchOperationAdd">
+				<xpath>*/RecipeDef[defName = "ExtractMetalFromDebris"]/fixedIngredientFilter/thingDefs</xpath>
+				<value>
+					<li>ChunkChalk</li>
+					<li>ChunkDolomite</li>
+					<li>ChunkShale</li>
+					<li>ChunkKaolinite</li>
+					<li>ChunkBasalt</li>
+					<li>ChunkGabbro</li>
+					<li>ChunkDacite</li>
+					<li>ChunkRhyolite</li>
+					<li>ChunkMicrocline</li>
+					<li>ChunkQuartzite</li>
+					<li>ChunkGneiss</li>
+					<li>ChunkSchist</li>
+				</value>
+			</li>	
+			<li Class="PatchOperationAdd">
+				<xpath>*/RecipeDef[defName = "BulkExtractMetalFromDebris"]/ingredients/li/filter/thingDefs</xpath>
+				<value>
+					<li>ChunkChalk</li>
+					<li>ChunkDolomite</li>
+					<li>ChunkShale</li>
+					<li>ChunkKaolinite</li>
+					<li>ChunkBasalt</li>
+					<li>ChunkGabbro</li>
+					<li>ChunkDacite</li>
+					<li>ChunkRhyolite</li>
+					<li>ChunkMicrocline</li>
+					<li>ChunkQuartzite</li>
+					<li>ChunkGneiss</li>
+					<li>ChunkSchist</li>
+				</value>
+			</li>			
+			<li Class="PatchOperationAdd">
+				<xpath>*/RecipeDef[defName = "BulkExtractMetalFromDebris"]/fixedIngredientFilter/thingDefs</xpath>
+				<value>
+					<li>ChunkChalk</li>
+					<li>ChunkDolomite</li>
+					<li>ChunkShale</li>
+					<li>ChunkKaolinite</li>
+					<li>ChunkBasalt</li>
+					<li>ChunkGabbro</li>
+					<li>ChunkDacite</li>
+					<li>ChunkRhyolite</li>
+					<li>ChunkMicrocline</li>
+					<li>ChunkQuartzite</li>
+					<li>ChunkGneiss</li>
+					<li>ChunkSchist</li>
+				</value>
+			</li>	
+		</operations>
+	</Operation>	
+
+</Patch>
