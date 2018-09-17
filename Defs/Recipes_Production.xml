@@ -21,7 +21,7 @@
 		  </li>
 		</ingredients>
 		<products>
-		  <Steel>30</Steel>
+		  <Steel>60</Steel>
 		</products>
 		<fixedIngredientFilter>
 		  <thingDefs>
